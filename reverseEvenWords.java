@@ -18,14 +18,9 @@ public class reverseEvenWords {
 					rev = rev + split[i].charAt(j);
 				}				
 			split[i]=rev;
-			System.out.print(split[i]);
+			System.out.print(" " +split[i]);
 			rev="";
 			
-		}
-		for(int i=0; i<split.length;i++)
-		{
-				//System.out.print(split[i]);
-		
 		}
 
 	}
