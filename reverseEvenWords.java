@@ -15,11 +15,14 @@ public class reverseEvenWords {
 			if(i%2!=0)
 			{
 				for(int j=length-1;j>=0;j--)
-					rev = rev + split[i].charAt(j);
-				}				
+					rev = rev + split[i].charAt(j);			
 			split[i]=rev;
-			System.out.print(" " +split[i]);
+			System.out.print(split[i]+" ");
 			rev="";
+			}
+			
+			else
+				System.out.print(split[i]+" ");
 			
 		}
 
