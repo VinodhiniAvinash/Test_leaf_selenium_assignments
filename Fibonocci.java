@@ -1,20 +1,23 @@
-package week1.day1;
+package Week1.Day1;
 
 public class Fibonocci {
 
 	public static void main(String[] args) {
-		int firstNum=0, secNum=1, sum=0, n=11;
-		System.out.println(firstNum);
-		System.out.println(secNum);
-		for (int i=2; i<n; i++)
-		{
-			sum = firstNum + secNum;
-			System.out.println(sum);
-			firstNum = secNum;
-			secNum= sum;
-									
-		}
+		int num1=0,num2=1,sum=0,n=11;
 		
+		System.out.println("The fibonacci series are");
+		
+		System.out.println(num1);
+		System.out.println(num2);
+		
+		for(int i=1;i<n;i++) {
+			
+			sum = num1 + num2;
+			num1 = num2;
+			num2 = sum;
+			System.out.println(sum);
+		}
+			
 
 	}
 
