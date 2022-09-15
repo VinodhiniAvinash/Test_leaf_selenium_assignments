@@ -8,7 +8,7 @@ public class changeOddIndexToUpperCase {
 		char [] charArray = test.toCharArray();
 		
 		for(int i=0;i<test.length();i++) {
-			if(i%2==0) {
+			if(i%2!=0) {
 				charArray[i]=Character.toUpperCase(charArray[i]);
 			}
 			System.out.print(charArray[i]);
